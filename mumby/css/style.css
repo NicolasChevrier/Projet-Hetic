@@ -1,0 +1,269 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*** Start global Stylesheet ***/
+
+body{
+    color:rgb(51, 51, 51); 
+    font-family: "Montserrat",Helvetica,Arial,sans-serif; 
+    font-size: 12px; 
+    background:#f2f2f2;
+}
+.warpper{
+    width: 100%;
+    margin: 0 auto;}
+
+.button-login { 
+    background-color: #ff950c;
+    border-right: 30px solid #ff950c;
+    border-left: 30px solid #ff950c;
+    color: #FFF;
+}
+
+.button-register{ 
+    color: #FFFFFF;
+}
+
+#header{
+    height: 45px;
+    width: 100%; 
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    color:#ffffff; 
+    box-shadow:0pt 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+#header .logo{
+    padding: 5px;
+    float:left;
+}
+#header .actions{
+    float:right; 
+    padding: 15px;
+}
+
+#header .actions .button {
+    margin-right: 40px;
+    text-decoration:none;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 6px;
+}
+
+
+#fond{
+    background: url("../img/background.png") 50% 50%/cover no-repeat fixed transparent;
+    width: 100%;
+    height: 550px;
+
+}
+
+
+.find{
+    text-align: center;
+    margin: 0 auto;
+ }
+
+#fond .find .text h2 { 
+    color: #fff;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.find .text {
+    width: 100%;
+
+}
+
+.find .text span{
+    color: #ffffff;
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 100px;
+    font-size: 18px;
+}
+
+
+
+
+#iseek .text{
+    float:left;
+}
+#seek .text h2{
+    font-size: 12px; 
+    color: #363636;
+}
+#seek .list-pres{
+    margin-bottom: 40px;
+    margin-top: 20px; 
+    float:left;
+ }
+#seek .list-pres li{
+    color: rgb(131, 122, 113); 
+    height: 50px;
+    font-size: 13px;
+    float:left;
+}
+#seek .list-pres img{
+    cursor:pointer;
+    vertical-align:middle;
+    margin-right: 40px;
+ }
+#seek .list-pres img:hover, .avaiable-on img:hover{
+    -khtml-opacity:0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    filter : alpha(opacity=80);
+    opacity : 0.8;
+}
+#seek .list-pres span{
+    width: 230px; 
+    float:left; 
+    margin-top: -53px;
+    margin-left: 10px;}
+
+
+.pagination {
+display:none;
+}
+
+/*
+    Footer
+*/
+
+#footer{
+    height: 20px;
+    padding-top: 10px;
+     text-align: center;
+ }
+#footer ul,li{
+    display:inline;
+    margin: 10px;
+}
+#footer a{
+    text-decoration: none;
+    color:#747474;
+}
+#footer a:hover{
+    text-decoration: none;
+}
+
+/*
+.content-liste .iteme{float:left; height: 93px; border-top: 1px solid #cccccc; width: 100%; padding: 10px 0 20px 60px; cursor: pointer;}
+.content-liste .iteme:hover{background: #e5e5e5;}
+.content-liste .iteme .price{float:left; font-size: 20px; color:#484747; width: 100px; text-align:center; padding-left: 8px; padding-top: 40px;}
+.content-liste .iteme .image{float:left; margin-left: 10px; -moz-box-shadow:inset 0 1px rgba(255, 255, 255, 0.35);-webkit-box-shadow:inset 0 1px rgba(255, 255, 255, 0.35);box-shadow:inset 0 1px rgba(255, 255, 255, 0.35);}
+.content-liste .iteme .image img{border: 1px solid rgb(119, 119, 119);-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;}
+.content-liste .iteme .description{width: 500px; padding: 10px;float:left; font-size: 14px;color: rgb(119, 119, 119); line-height: 15px;}
+.content-liste .iteme .btn {float:left; padding: 10px; -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;cursor: pointer; color:#ffffff; font-weight: bold; font-size: 15px;margin-top: 30px;}
+.bluegradient{border-top: 1px #2270ab solid;border-right: 1px #18639a solid;border-bottom: 1px #0f568b solid;border-left: 1px #18639a solid;background: #2180ce;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#33a0e8", endColorstr="#2180ce");background: -webkit-gradient(linear, left top, left bottom, from(#33a0e8), to(#2180ce));background: -moz-linear-gradient(top, #33a0e8, #2180ce);text-shadow: 0 -1px 0 rgba(0,0,0,0.32);-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);box-shadow: 0 1px 1px rgba(0,0,0,0.3);}
+.bluegradient:hover{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgb(7, 139, 226)", endColorstr="#2180ce");background: -webkit-gradient(linear, left top, left bottom, from(rgb(7, 139, 226)), to(#2180ce));background: -moz-linear-gradient(top, rgb(7, 139, 226), #2180ce);}
+*/
